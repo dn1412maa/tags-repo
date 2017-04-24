@@ -1,0 +1,21 @@
+SearchParams:
+    Regions:
+        - us-west-2
+    TagsChecker:
+        - Key: resource_owner
+General:
+    HC:
+        HC_auth_token: <HC_AUTH_TOKEN>
+        HC_room_id: <HC_ROOM_ID>
+    ResourceTypes:
+        - Instances
+        - Images
+        - Snapshots
+        - Volumes
+        - Subnets
+        - LoadBalancers
+        - DBInstances
+        - AutoScalingGroups
+        - DBSnapshots
+    S3forReports:
+        Bucket_name: <BUCKET_NAME>
